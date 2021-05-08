@@ -15,7 +15,7 @@ class A{
     }
 }
 @Controller
-@RequestMapping("/HelloController")
+@RequestMapping("HelloController")
 public class HelloController {
     //真实访问地址 : 项目名/HelloController/hello
     @RequestMapping("/hello")
