@@ -1,4 +1,4 @@
- ```
+ ```xml
  <parent>
     <artifactId>Spring_MVC</artifactId>
     <groupId>com.gemini</groupId>
