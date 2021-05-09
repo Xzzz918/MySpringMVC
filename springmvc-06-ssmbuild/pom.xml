@@ -34,7 +34,7 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.47</version>
     </dependency>
-    <!-- 数据库连接池 -->
+    <!-- 数据库连接池: c3p0 -->
     <dependency>
       <groupId>com.mchange</groupId>
       <artifactId>c3p0</artifactId>
