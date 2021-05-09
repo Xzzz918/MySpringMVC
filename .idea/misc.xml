@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc-03-hello-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-04-controller" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-05-result" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-06-ssmbuild" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
