@@ -10,6 +10,7 @@ import java.util.List;
  * Created in  2021/5/9 15:45
  */
 public class BookServiceImpl implements BookService{
+    //Service业务层调Dao层
     private BookMapper bookMapper;
 
     public void setBookMapper(BookMapper bookMapper) {
