@@ -18,7 +18,8 @@ import java.util.List;
 @Controller
 @RequestMapping("/book")
 public class BookController {
-
+    
+    //Controller调Service层
     @Autowired
     @Qualifier(value = "bookServiceImpl")
     private BookService bookService;
