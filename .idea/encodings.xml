@@ -14,5 +14,7 @@
     <file url="file://$PROJECT_DIR$/springmvc-06-ssmbuild/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc-07-json/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc-07-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-08-ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-08-ajax/src/main/resources" charset="UTF-8" />
   </component>
 </project>

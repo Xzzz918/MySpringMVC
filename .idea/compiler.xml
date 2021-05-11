@@ -14,6 +14,7 @@
         <module name="springmvc-04-controller" />
         <module name="springmvc-05-result" />
         <module name="springmvc-01-servlet" />
+        <module name="springmvc-08-ajax" />
       </profile>
     </annotationProcessing>
   </component>
