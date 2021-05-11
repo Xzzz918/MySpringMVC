@@ -1,11 +1,12 @@
 package com.gemini.pojo;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
  * @author gemini
- * Created in  2021/5/11 11:08
+ * Created in  2021/5/11 12:26
  */
 //需要导入lombok
 @Data
