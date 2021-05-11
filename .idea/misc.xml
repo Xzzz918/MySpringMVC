@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc-04-controller" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-05-result" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-06-ssmbuild" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-07-json" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
