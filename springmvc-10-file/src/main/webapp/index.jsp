@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <body>
@@ -13,5 +14,8 @@
     </label>
     <input type="submit" value ="提交">
 </form>
+<h2>文件下载</h2>
+<%--<a href="${pageContext.request.contextPath}/downloadEntity">点击链接即可下载图片</a>--%>
+<a href="<c:url value="/downloadEntity"/>">下载</a>
 </body>
 </html>
