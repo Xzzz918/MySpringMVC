@@ -16,21 +16,21 @@ public class MyInterceptor implements HandlerInterceptor {
     //在请求处理的方法之前执行
     //若返回true，则执行下一个拦截器；若返回false，就不执行下一个拦截器
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
         System.out.println("=============处理前============");
         return true;
 //        return HandlerInterceptor.super.preHandle(request, response, handler);
     }
     //在请求处理的方法之后执行
     @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) {
 //        HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
         System.out.println("=============处理后============");
     }
     //在dispatcherServlet处理后执行,做清理工作.
     @Override
-    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
+//        HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
         System.out.println("=============清理============");
     }
 }
