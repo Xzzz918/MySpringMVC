@@ -28,6 +28,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--以下依赖包括三个包：jackson-core,jackson-databind,jackson-annotations，只有导入它们才能使用json转换工具-->
     <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
