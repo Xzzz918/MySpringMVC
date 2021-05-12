@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.IOException;
-
 /**
  * @author gemini
  * Created in  2021/5/8 14:57
@@ -20,8 +18,9 @@ public class ControllerTest2 {
         model.addAttribute("msg", "Test2Controller");
         return "test";
     }
-    @RequestMapping("/requestHeader")
+    @RequestMapping("/getHeader")
     @ResponseBody
+    //获取请求头RequestHeader
     public void testRequestHeader(@RequestHeader(value="User-Agent",required=false) String user_agent) {
         System.out.println(user_agent);
     }
