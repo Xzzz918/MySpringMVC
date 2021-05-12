@@ -18,8 +18,8 @@
         <module>springmvc-07-json</module>
         <module>springmvc-08-ajax</module>
         <module>springmvc-09-Interceptor</module>
+        <module>springmvc-10-file</module>
     </modules>
-    <dependencyManagement/>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

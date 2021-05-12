@@ -12,7 +12,7 @@
     <context:component-scan base-package="com.gemini.controller"/>
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
-    <!--配置拦截器-->
+<!--    配置拦截器-->
     <mvc:interceptors>
         <mvc:interceptor>
             <!--/** 包括路径及其子路径-->
@@ -20,7 +20,11 @@
             <!--/admin/** 拦截的是/admin/下的所有-->
             <mvc:mapping path="/**"/>
             <!--bean配置的就是拦截器-->
-            <bean class="com.gemini.controller.MyInterceptor"/>
+            <bean class="com.gemini.controller.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 </beans>

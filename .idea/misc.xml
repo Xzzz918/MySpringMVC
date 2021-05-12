@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc-07-json" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-08-ajax" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc-09-Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-10-file" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
