@@ -1,0 +1,7 @@
+- 转发和重定向的区别
+- EL表达式
+- Model和ModelAndView的区别
+- HttpServletRequest、HttpServletResponse、HttpSession的使用
+- 了解一下JavaBean和POJO
+- 请求头的名称 @RequestHeader注解
+- Cookie @CookieValue @RequestHeader
