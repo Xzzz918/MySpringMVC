@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-03-hello-annotation" />
+        <module name="springmvc-09-Interceptor" />
         <module name="springmvc-06-ssmbuild" />
         <module name="springmvc-07-json" />
         <module name="springmvc-02-hello" />
